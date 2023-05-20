@@ -1,0 +1,429 @@
+
+body{
+    background:url('badh.webp') no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    margin:0;
+    padding:3px;
+}
+
+    
+    nav{
+background-color:green;
+width:100%;
+height:82px;
+box-sizing:border-box;
+padding:0;
+position:fixed;
+top:0;
+z-index:2;
+}
+
+nav div{
+float:left;
+
+}
+
+.logo{
+    max-width:10%;
+    box-sizing:border-box;
+    margin:13px 0 10px 25px;
+    padding:7px 10px 13px 10px;
+    height:50px;
+    width:80px;
+    float:left;
+}
+       
+
+
+                                        /*     study start    */
+.study{
+width:27%;
+height:82px;
+text-align:left;
+padding-top:15px;
+box-sizing:border-box;
+color:white;
+
+}
+
+.clear{
+width:10%;
+height:82px;
+
+}
+
+.study h1{
+font-weight:bold;
+font-size:40px;
+display:inline;
+
+}
+                                        /*     study end    */
+
+
+
+
+
+
+
+
+
+
+                                        /*     menu start    */
+
+
+
+
+
+
+.menu{
+width:45%;
+height:82px;
+}
+
+
+.menu ul{
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+margin-top:24px;
+}
+
+
+
+
+.menu ul li{
+list-style-type:none;  
+}
+
+.menu ul li a{
+text-decoration:none;
+color:white;
+font-size:30px;
+font-weight:bold;
+}
+
+
+.menu ul li a:hover{
+    text-decoration:underline;
+    cursor:pointer;
+    color:black;
+}
+
+.menu ul li:hover{
+cursor:pointer;
+color:black;
+}
+
+
+
+
+.clear2{
+    width:3%;
+    height:82px;
+    
+}
+
+
+
+
+.bars{
+    display:flex;
+    width:5%;
+    height:82px;
+    color:white;
+    font-size:30px;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+   
+}
+
+
+.bars ul{
+    position:absolute;
+    top:51px;
+    right:0px;
+    visibility:hidden;
+    width:150px;
+}
+
+
+.bars ul li{
+    color:white;
+    list-style-type:none;
+    margin-top:1.5px;
+    background-color:green;
+    z-index:2;
+}
+
+
+.bars ul li:hover{
+    border:1px solid black;
+    background-color:pink;
+    color:black;
+}
+
+
+.bars:hover ul{
+    visibility:visible;
+}
+
+
+
+
+.bars:hover{
+    cursor:pointer;
+    color:black;
+}
+
+
+
+.bars ul li a{
+    font-size:30px;
+    font-weight:bold;
+    text-decoration:none;
+    color:white;
+}
+
+
+
+
+
+                                        /*     menu end    */
+
+
+
+
+
+
+
+                                            /*      main start     */
+
+.faka{
+width:100%;
+height:80px;
+
+}
+
+.search{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+    width:100%;
+    height:120px;
+    
+}
+
+
+
+
+input[type="search"]{
+    background-image:url('search-icon.png');
+    background-size:25px;
+    background-position:12px 9px;
+    background-repeat:no-repeat;
+    font-size:25px;
+    text-align:left;
+    padding:10px 20px 10px 43px;
+    border-radius:15px;
+    width:450px;
+    height:45px;
+    box-sizing:border-box;
+    transition:1s;
+    animation-name:search;
+    animation-duration:0.1s;
+   
+}
+
+
+@keyframes search{
+0%{
+    width:440px;
+    height:43px;
+
+}
+
+
+
+100%{
+    width:450px;
+    height:45px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="search"]:hover{
+   background-color:pink;
+    width:500px;
+    height:45px;
+}
+
+
+
+
+
+::placeholder{
+    color:black;
+    text-align:center;
+}
+
+.btn{
+    width:50px;
+    height:45px;
+    background-image:url('search-icon.png');
+    background-size:25px;
+    background-position:12px 9px;
+    background-repeat:no-repeat;
+}
+
+.faka2{
+    width:100%;
+    height:100px;
+    
+    }
+    
+
+
+
+
+.main{
+width:100%;
+height:900px;
+margin-top:70px;
+box-sizing:border-box;
+}
+
+.title{
+color:yellow;
+width:100%;
+height:20%;
+}
+
+
+.main .container{
+
+width:100%;
+height:80%;
+display:flex;
+justify-content:center;
+}
+
+
+.main .container .container-discription{
+
+width:300px;
+height:300px;
+display:grid;
+grid-template-columns:60px 60px 60px;
+grid-column-gap:25px;
+align-items:center;
+justify-content:center;
+box-sizing:border-box;
+border-radius:8px;
+}
+
+.main .container .container-discription button{ 
+height:60px;
+width:60px;
+border-radius:8px;
+border:none;
+transition:0.20s;
+animation-name:button;
+animation-duration:0.1s;
+
+}
+
+
+
+@keyframes button{
+    0%{
+        height:57px;
+        width:57px;
+    }
+    
+    
+    
+    100%{
+        height:60px;
+        width:60px;
+    }
+
+
+}
+
+
+
+
+
+
+.main .container .container-discription button:hover{ 
+height:70px;
+width:70px;
+}
+
+
+
+
+
+.main .container .container-discription button a{ 
+font-size:50px;
+}
+
+
+.facebook a{
+color:#1B74E4;
+}
+
+.youtube a{
+color:red;
+}
+
+.whatsapp a{
+color:green;
+}
+
+
+
+
+
+
+
+
+
+
+
+                                            /*      main end    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
